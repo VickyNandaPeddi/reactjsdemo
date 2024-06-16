@@ -1,11 +1,12 @@
 import Counter from "./Component/Counter";
+import ParentComponent from "./Component/ParentComponent";
 import TestEventClassClick from "./Component/TestEventClassClick";
 import TestEventHandeler from "./Component/TestEventHandeler";
 
 function App() {
   return (
     <div>
-      <TestEventClassClick></TestEventClassClick>
+      <ParentComponent></ParentComponent>
     </div>
   );
 }
