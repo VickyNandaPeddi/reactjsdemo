@@ -1,10 +1,9 @@
-import FormsDAta from "./Component/FormsDAta";
-import LifeCycleA from "./Component/LifeCycleA";
+import ReactUsestateHook from "./Component/ReactUsestateHook";
 
 function App() {
   return (
     <div>
-      <LifeCycleA></LifeCycleA>
+      <ReactUsestateHook></ReactUsestateHook>
     </div>
   );
 }
