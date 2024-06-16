@@ -1,11 +1,10 @@
-import Navbar from "./Component/Navbar";
-import TestStateExample from "./Component/TestStateExample";
-import TextForm from "./Component/TextForm";
+import Counter from "./Component/Counter";
+
 
 function App() {
   return (
     <div>
-     <TestStateExample></TestStateExample>
+      <Counter></Counter>
     </div>
   );
 }
