@@ -1,9 +1,12 @@
-import ReactUsestateHook from "./Component/ReactUsestateHook";
-
+import UseStateTestHook from "./Component/UseStateTestHook";
+import React, { useEffect, useState } from "react";
+export const globalContext = React.createContext();
 function App() {
   return (
     <div>
-      <ReactUsestateHook></ReactUsestateHook>
+      <globalContext.Provider value="Hearererere">
+        <UseStateTestHook></UseStateTestHook>
+      </globalContext.Provider>
     </div>
   );
 }
