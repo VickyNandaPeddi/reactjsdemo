@@ -1,28 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './Compoenent/Navbar';
-import Home from './Compoenent/Home';
-import {Route, BrowserRouter as Router, Routes} from 'react-router-dom';
-import Adduser from './Compoenent/Adduser';
-import {LoginComponent} from "./Compoenent/LoginComponent";
+import Navbar from "./Component/Navbar";
+import TextForm from "./Component/TextForm";
 
 function App() {
-    return (
-        <div className="App">
-            <Navbar></Navbar>
+  return (
+    <div>
+      <Navbar name="User Point of View"></Navbar>
 
-            <Router>
-                <Routes>
-                    <Route exact path='/' Component={LoginComponent}></Route>
-                    <Route exact path='/home' Component={Home}></Route>
-                    <Route exact path='/adduser' Component={Adduser}></Route>
-                </Routes>
-                <br/>
-                {/* <Home></Home> */}
+      <TextForm name='text form'>
+<p>this is child inside text form</p>
 
-            </Router>
-        </div>
-    );
+      </TextForm>
+    </div>
+  );
 }
 
 export default App;
