@@ -1,9 +1,10 @@
 import FormsDAta from "./Component/FormsDAta";
+import LifeCycleA from "./Component/LifeCycleA";
 
 function App() {
   return (
     <div>
-      <FormsDAta></FormsDAta>
+      <LifeCycleA></LifeCycleA>
     </div>
   );
 }
